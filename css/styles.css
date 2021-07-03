@@ -243,3 +243,50 @@ canvas.particles-js-canvas-el {
 }
 
 /* About me ENDS */
+
+/* Contact me STARTS */
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, textarea, form button {
+    border: 1px solid #fff;
+    border-radius: 35px;
+    background: transparent;
+    color: #fff;
+    margin: 1rem 0 1rem 0;
+    min-width: 250px;
+}
+
+form label {
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+}
+
+form input::placeholder, textarea::placeholder {
+    color: #fff;
+}
+
+form input:focus, textarea:focus {
+    outline: none;
+}
+
+.form-floating textarea {
+    min-height: 200px;
+    border-top-left-radius: 35px;
+    padding: 5rem;
+    resize: none;
+}
+
+form button {
+    padding: 0.75rem;
+}
+
+form button:hover {
+    background: #fff;
+    color: teal;
+}
+
+/* Contact me ENDS */
