@@ -321,3 +321,65 @@ footer i:hover::before {
 }
 
 /* Footer ENDS */
+
+/* Responsive design for Desktop Layouts */
+
+@media only screen and (min-width: 756px) {
+    .home-content h1 {
+        margin-top: 2rem;
+        font-size: 46px;
+    }
+    
+    .home-content strong {
+        margin-top: 1rem;
+        font-size: 28px;
+    }
+
+    .social-media-content {
+        margin-top: 5rem;
+        padding: 2rem 4rem;
+    }
+
+    .social-media-content h5 {
+        font-size: 18px;
+        margin-bottom: 1rem;
+    }
+
+    .social-media-content i {
+        font-size: 28px;
+    }
+
+    .project-content {
+        min-width: 320px;
+        width: 30%;
+    }
+
+    .project-content {
+        max-width: 380px;
+    }
+
+    .abilities-content {
+        width: 100%;
+        max-width: 1024px;
+    }
+
+    form input, textarea, form button {
+        min-width: 450px;
+    }
+
+    footer h6 {
+        font-size: 20px;
+    }
+
+    footer span {
+        font-size: 18px;
+    }
+
+    footer i::before {
+        margin: 0 0.5rem 0 0.5rem;
+        font-size: 22px;
+        border: 1px solid #fff;
+        border-radius: 36px;
+        padding: 0.75rem;
+    }
+}
